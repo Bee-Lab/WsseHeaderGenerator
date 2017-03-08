@@ -1,5 +1,5 @@
 {
-  "name": "beelab/WsseHeaderGenerator",
+  "name": "beelab/wsse-header-generator",
   "type": "library",
   "description": "",
   "keywords": ["wsse","security"],

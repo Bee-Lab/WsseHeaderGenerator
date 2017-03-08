@@ -1,0 +1,43 @@
+{
+  "name": "beelab/WsseHeaderGenerator",
+  "type": "library",
+  "description": "",
+  "keywords": ["wsse","security"],
+  "homepage": "https://github.com/Bee-lab",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro D'Alatri",
+      "email": "mauro@dalatri.it"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0",
+    "mockery/mockery": "0.9.*",
+    "friendsofphp/php-cs-fixer": "~1.5",
+    "symfony/security-core": "v3.2.*"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "BeelabWsseHeaderGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BeelabWsseHeaderGenerator\\Tests\\": "tests/"
+    }
+  },
+  "suggest": {
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}

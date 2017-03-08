@@ -4,3 +4,4 @@
 !var/.gitkeep
 /vendor
 /coverage
+composer.lock

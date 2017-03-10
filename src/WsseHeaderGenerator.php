@@ -8,31 +8,31 @@ namespace BeelabWsseHeaderGenerator;
 class WsseHeaderGenerator
 {
     /**
-     * @var Noncer
+     * @var NoncerInterface
      */
     protected $noncer;
 
     /**
-     * @var Dater
+     * @var DaterInterface
      */
     protected $dater;
 
     /**
-     * @var Digester
+     * @var DigesterInterface
      */
     protected $digester;
 
     /**
      * WsseHeaderGenerator constructor.
      *
-     * @param Noncer   $noncer
-     * @param Dater    $dater
-     * @param Digester $digester
+     * @param NoncerInterface   $noncer
+     * @param DaterInterface    $dater
+     * @param DigesterInterface $digester
      */
     public function __construct(
-        Noncer $noncer,
-        Dater $dater,
-        Digester $digester
+        NoncerInterface $noncer,
+        DaterInterface $dater,
+        DigesterInterface $digester
 
     ) {
         $this->noncer = $noncer;

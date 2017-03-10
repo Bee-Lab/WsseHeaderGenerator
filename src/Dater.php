@@ -5,7 +5,7 @@ namespace BeelabWsseHeaderGenerator;
 /**
  * Class Dater.
  */
-class Dater
+class Dater implements DaterInterface
 {
     /**
      * @return string

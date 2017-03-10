@@ -5,7 +5,7 @@ namespace BeelabWsseHeaderGenerator;
 /**
  * Class Digester.
  */
-class Digester
+class Digester implements DigesterInterface
 {
     /**
      * @return string
